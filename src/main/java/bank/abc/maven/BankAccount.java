@@ -1,3 +1,5 @@
+package bank.abc.maven;
+
 public class BankAccount {
     private String accountNumber;
     private String accountHolderName;
