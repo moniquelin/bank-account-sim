@@ -1,3 +1,5 @@
+package bank.abc.maven;
+
 import java.util.Scanner;
 
 public class App {

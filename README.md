@@ -2,7 +2,7 @@
 
 A simple bank account simulation CLI app.
 
-## Actions
+## Features
 
 Users can:
 
@@ -11,6 +11,13 @@ Users can:
 - Deposit money
 - Withdraw money
 - Transfer money from one account to another
+
+## Built With
+* [Maven](https://maven.apache.org/) - Dependency Management
+
+## Log
+
+- 23 September 2024: Refactored using Maven
 
 ## Future Improvements
 
