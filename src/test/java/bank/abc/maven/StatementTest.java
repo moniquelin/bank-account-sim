@@ -16,4 +16,19 @@ public class StatementTest {
         statement.close();
         connection.close();
     }
+    
+    @Test
+    void testExecuteUpdate() throws SQLException {
+        Connection connection = ConnectionUtil.getDataSource().getConnection();
+        Statement statement = connection.createStatement();
+        
+        String sql = """
+                INSERT INTO accounts(account_number, account_holder, balance) 
+                VALUES ('0', 'Monique Madelin', '100000')
+                """;
+        int update = statement.executeUpdate(sql);
+        System.out.println(update);
+        statement.close();
+        connection.close();
+    }
 }
